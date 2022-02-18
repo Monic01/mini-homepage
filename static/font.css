@@ -1,0 +1,66 @@
+@font-face {
+  font-family: "Pretendard-Regular";
+  src: url("https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff")
+    format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "KOTRAHOPE";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2110@1.0/KOTRAHOPE.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.left-box > .visit-count {
+  font-family: "Pretendard-Regular";
+}
+
+.main-box > .post-box {
+  font-family: "Pretendard-Regular";
+}
+
+.profile-post {
+  font-family: "Pretendard-Regular";
+}
+
+.update-left-box {
+  font-family: "Black Han Sans", sans-serif;
+  font-family: "Jua", sans-serif;
+  font-family: "Nanum Gothic", sans-serif;
+}
+
+.board-info {
+  font-family: "KOTRAHOPE";
+  font-size: 14px;
+}
+
+.side-menubar a {
+  font-family: "Pretendard-Regular";
+  font-size: 14px;
+}
+
+.select-wave {
+  font-family: "Nanum Gothic", sans-serif;
+}
+.album-box {
+  font-family: "KOTRAHOPE";
+}
+.album-post {
+  font-family: "Nanum Gothic", sans-serif;
+  font-size: 13px;
+}
+.day-box {
+  font-family: "Pretendard-Regular";
+}
+.diary {
+  font-family: "Pretendard-Regular";
+}
+.invisible-btn > button {
+  font-weight: bolder;
+}
+.guestbook-box {
+  font-family: "KOTRAHOPE";
+}
