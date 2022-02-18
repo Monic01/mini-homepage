@@ -1,0 +1,91 @@
+.diary-box {
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  margin: 10px 10px;
+}
+.daybox {
+  display: flex;
+  flex-wrap: wrap;
+
+  border: 1px solid rgb(189, 186, 186);
+  margin-bottom: 20px;
+}
+.date {
+  flex: 0.1;
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 15px;
+}
+.calendar {
+  flex: 1;
+}
+.sat {
+  color: blue;
+}
+.sun {
+  color: red;
+}
+
+.diary-post {
+  overflow: auto;
+  width: 100%;
+}
+.diary {
+  display: flex;
+  flex-direction: column;
+
+  width: 99.5%;
+  height: auto;
+  border: 1px solid rgb(189, 186, 186);
+  margin-bottom: 30px;
+}
+.post-date {
+  flex: 0.1;
+  margin-top: 20px;
+  margin-left: 20px;
+  color: rgb(80, 145, 123);
+  font-weight: bold;
+}
+.posting {
+  flex: 1;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+
+  height: 500px;
+  min-height: 250px;
+  line-height: 150%;
+}
+.post-by {
+  font-size: 11px;
+}
+.invisible-btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+.invisible-btn > button {
+  padding: 10px;
+  color: white;
+  background-color: white;
+  border: white;
+  border-radius: 3px;
+}
+
+.invisible-btn > button:hover {
+  transition: 800ms ease all;
+  color: rgb(243, 247, 246);
+  background-color: rgb(89, 163, 147);
+  cursor: pointer;
+}
+.icon {
+  margin-right: 10px;
+}
+#secret-box {
+  display: none;
+}
